@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report Card - Aputi Primary School</title>
+</head>
+<body>
+
+<header style="text-align:center;">
+  <h1>APUTI PRIMARY SCHOOL</h1>
+  <h3>INVEST IN EDUCATION</h3>
+  <p>Since 1943</p>
+</header>
+
+<h2>Generate Report Card</h2>
+
+<input id="lin" placeholder="Enter Pupil LIN">
+
+<select id="level">
+  <option value="p1p3">P1 - P3</option>
+  <option value="p4p7">P4 - P7</option>
+</select>
+
+<button onclick="generatePDF()">Download Report</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script type="module" src="js/reports.js"></script>
+
+</body>
+</html>
