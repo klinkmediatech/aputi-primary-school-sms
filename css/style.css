@@ -1,0 +1,19 @@
+body {
+  font-family: Arial;
+}
+
+header {
+  background: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 10px;
+}
+
+table {
+  background: #fff9c4;
+  width: 100%;
+}
